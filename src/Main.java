@@ -11,7 +11,7 @@ public class Main {
         System.out.println("1. Charfeddinehaddouk");
         System.out.println("2. LouatiMarwa");
         System.out.println("3. mounahamrouni");
-       // System.out.println("4. Amine Jlasi");
+        System.out.println("4. Jlassi Med Amine");
         System.out.println("5. Taher Bel Hajj Hassen");
         System.out.println("6. Malek Ben Kacem");
 
@@ -21,8 +21,8 @@ public class Main {
         int choixMembre2 = scanner.nextInt();
         System.out.print("mounahamrouni 3: ");
         int choixMembre3 = scanner.nextInt();
-       // System.out.print("Amine Jlasi 4: ");
-       // int choixMembre4 = scanner.nextInt();
+        System.out.print("Amine Jlasi 4: ");
+        int choixMembre4 = scanner.nextInt();
         System.out.print("Taher Bel Hajj Hassen 5: ");
         int choixMembre5 = scanner.nextInt();
         System.out.print("Malek Ben Kacem 6: ");
@@ -41,8 +41,8 @@ public class Main {
         choisirFonctionEtCalculer(choixMembre3, scanner);
 
         // Choix de la fonction pour le membre 4
-       // System.out.println("Fonction pour le Jlasi 4:");
-       // choisirFonctionEtCalculer(choixMembre4, scanner);
+        System.out.println("4. Jlassi Med Amine");
+        choisirFonctionEtCalculer(choixMembre4, scanner);
 
          // Choix de la fonction pour le membre 5
         System.out.println("Fonction pour le Taher Bel Hajj Hassen 5:");
