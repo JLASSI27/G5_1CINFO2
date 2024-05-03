@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class taherBHH {
-
     // Méthode pour calculer le PGCD de deux nombres
     public static int calculerPGCD(int a, int b) {
         // Utilisation de l'algorithme d'Euclide

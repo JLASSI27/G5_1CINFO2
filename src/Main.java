@@ -180,7 +180,7 @@ public class Main {
            // case 5 TaherBHH
             case 5:
                 System.out.println("1.calculer le PGCD de deux nombres");
-                System.out.println("2.calculer RacineCarree ");
+                System.out.println("2.calculer Racine Carree ");
 
                 System.out.print("Choix: ");
                 int choixAL = scanner.nextInt();
