@@ -1,3 +1,5 @@
+package PACKAGE_NAME;public class mounahamrouni {
+=======
 import java.util.Arrays;
 
 public class mounahamrouni {
@@ -31,4 +33,5 @@ public class mounahamrouni {
         System.arraycopy(tableau2, 0, resultat, tableau1.length, tableau2.length);
         return resultat;
     }
+
 }
