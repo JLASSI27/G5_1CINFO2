@@ -12,7 +12,7 @@ public class Main {
         System.out.println("2. LouatiMarwa");
         System.out.println("3. mounahamrouni");
        // System.out.println("4. Amine Jlasi");
-       // System.out.println("5. Taher Bel Hajj Hassen");
+        System.out.println("5. Taher Bel Hajj Hassen");
         System.out.println("6. Malek Ben Kacem");
 
         System.out.print("Charfeddinehaddouk 1: ");
@@ -23,8 +23,8 @@ public class Main {
         int choixMembre3 = scanner.nextInt();
        // System.out.print("Amine Jlasi 4: ");
        // int choixMembre4 = scanner.nextInt();
-      //  System.out.print("Taher Bel Hajj Hassen 5: ");
-      //  int choixMembre5 = scanner.nextInt();
+        System.out.print("Taher Bel Hajj Hassen 5: ");
+        int choixMembre5 = scanner.nextInt();
         System.out.print("Malek Ben Kacem 6: ");
         int choixMembre6 = scanner.nextInt();
 
@@ -44,9 +44,9 @@ public class Main {
        // System.out.println("Fonction pour le Jlasi 4:");
        // choisirFonctionEtCalculer(choixMembre4, scanner);
 
-        // Choix de la fonction pour le membre 5
-        //System.out.println("Fonction pour le Taher Bel Hajj Hassen 5:");
-       // choisirFonctionEtCalculer(choixMembre5, scanner);
+         // Choix de la fonction pour le membre 5
+        System.out.println("Fonction pour le Taher Bel Hajj Hassen 5:");
+        choisirFonctionEtCalculer(choixMembre5, scanner);
 
         // Choix de la fonction pour le membre 6
         System.out.println("Fonction pour le MalekBenKacem 6:");
@@ -177,27 +177,37 @@ public class Main {
                         System.out.println("Choix invalide.");
                 }
                 break;*/
-            // case 5 TaherBHH
-            /*case 5:
-                System.out.println("1. ");
-                System.out.println("2. ");
-                System.out.println("3. ");
-                System.out.println("4. ");
+           // case 5 TaherBHH
+            case 5:
+                System.out.println("1.calculer le PGCD de deux nombres");
+                System.out.println("2.calculer Racine Carree ");
+
                 System.out.print("Choix: ");
                 int choixAL = scanner.nextInt();
                 switch (choixAL) {
                     case 1:
+                        System.out.println("Entrez le premier nombre :");
+                        int nombre1 = scanner.nextInt();
+
+                        System.out.println("Entrez le deuxième nombre :");
+                        int nombre2 = scanner.nextInt();
+
+                        int pgcd = taherBHH.calculerPGCD(nombre1, nombre2);
+                        System.out.println("Le PGCD de " + nombre1 + " et " + nombre2 + " est : " + pgcd);
+                        break;
 
                     case 2:
+                        System.out.println("Entrez un nombre :");
+                        double nombre = scanner.nextDouble();
+                        double racineCarree = taherBHH.calculerRacineCarree(nombre);
+                        System.out.println("La racine carrée de " + nombre + " est : " + racineCarree);
 
-                    case 3:
-
-                    case 4:
+                        break;
 
                     default:
                         System.out.println("Choix invalide.");
                 }
-                break;*/
+                break;
 //case 6 MalekBenKacem
             case 6:
                 System.out.println("1. Calculer la longueur d'une chaîne");
