@@ -1,5 +1,4 @@
-package PACKAGE_NAME;public class mounahamrouni {
-=======
+
 import java.util.Arrays;
 
 public class mounahamrouni {
