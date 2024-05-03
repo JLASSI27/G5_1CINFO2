@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("un conflit par charfeddine haddoukk");
+        System.out.println("un conflit par charfeddine haddouk");
 
         Scanner scanner = new Scanner(System.in);
 
