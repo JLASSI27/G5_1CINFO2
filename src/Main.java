@@ -4,10 +4,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 <<<<<<< HEAD
+        System.out.println("Creer un conflit par malek");
 
-
-        System.out.println("créer un conflit par charfeddine");
->>>>>>> origin/main
         Scanner scanner = new Scanner(System.in);
 
         // Choix de la fonction pour chaque membre
