@@ -1,28 +1,6 @@
 import java.util.Arrays;
 
 public class mounahamrouni {
-    public static void main(String[] args) {
-        int[] tableau = {5, 2, 9, 1, 3};
-        trierTableauCroissant(tableau);
-        System.out.println("Tableau trié en ordre croissant : " + Arrays.toString(tableau));
-
-        String chaine = "radar";
-        if (estPalindrome(chaine)) {
-            System.out.println(chaine + " est un palindrome.");
-        } else {
-            System.out.println(chaine + " n'est pas un palindrome.");
-        }
-
-        int[] tableau2 = {5, 2, 9, 1, 3};
-        int max = trouverMax(tableau2);
-        System.out.println("L'élément maximal dans le tableau est : " + max);
-
-        int[] tableau1 = {1, 2, 3};
-        int[] tableau3 = {4, 5, 6};
-        int[] resultat = concatenerTableaux(tableau1, tableau3);
-        System.out.println("Résultat de la concaténation : " + Arrays.toString(resultat));
-    }
-
     public static void trierTableauCroissant(int[] tableau) {
         Arrays.sort(tableau);
     }
