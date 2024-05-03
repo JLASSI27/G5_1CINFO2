@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("créer un conflit par charfeddine");
         Scanner scanner = new Scanner(System.in);
-
         // Choix de la fonction pour chaque membre
         System.out.println("Choisissez la fonction pour chaque membre:");
         System.out.println("1. Jean Dupont");
